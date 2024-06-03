@@ -66,3 +66,5 @@ https://universe.roboflow.com/landy-aw2jb/fracture-ov5p1/dataset/1
 
 https://blog.roboflow.com/yolov10-how-to-train/
 James Gallagher, Piotr Skalski. (May 24, 2024). How to Fine-Tune a YOLOv10 Model on a Custom Dataset. Roboflow Blog: https://blog.roboflow.com/yolov10-how-to-train/
+
+https://medium.com/@huzeyfebicakci/custom-dataset-training-with-yolov10-a-deep-dive-into-the-latest-evolution-in-real-time-object-ab8c62c6af85
