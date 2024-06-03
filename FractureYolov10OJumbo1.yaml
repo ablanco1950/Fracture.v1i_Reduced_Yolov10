@@ -1,0 +1,7 @@
+train: C:/Fracture.v1i_Reduced_Yolov10/trainFractureOJumbo1/images
+val: C:/Fracture.v1i_Reduced_Yolov10/validFractureOJumbo1/images
+test: C:/Fracture.v1i_Reduced_Yolov10/testFractureOJumbo1/images
+
+nc: 1
+names: ['Fracture']
+
