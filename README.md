@@ -61,3 +61,8 @@ The best result has been found in the last.pt of 128 epoch, although when reachi
 
 ===
 References and citations:
+
+
+
+https://blog.roboflow.com/yolov10-how-to-train/
+James Gallagher, Piotr Skalski. (May 24, 2024). How to Fine-Tune a YOLOv10 Model on a Custom Dataset. Roboflow Blog: https://blog.roboflow.com/yolov10-how-to-train/
