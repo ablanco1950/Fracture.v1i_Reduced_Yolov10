@@ -40,7 +40,7 @@ The project comes with an optimized model: last128epoch060003.pt
 
 To obtain this model, the following has been executed:
 
-EvaluateTESTFractureYolov10.py
+TrainFractureYolov10OJumbo1.py
 
 which uses the .yaml file:
 
