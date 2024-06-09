@@ -64,6 +64,20 @@ References and citations:
 
 https://universe.roboflow.com/landy-aw2jb/fracture-ov5p1/dataset/1
 
+@misc{
+                            fracture-ov5p1_dataset,
+                            title = { fracture Dataset },
+                            type = { Open Source Dataset },
+                            author = { landy },
+                            howpublished = { \url{ https://universe.roboflow.com/landy-aw2jb/fracture-ov5p1 } },
+                            url = { https://universe.roboflow.com/landy-aw2jb/fracture-ov5p1 },
+                            journal = { Roboflow Universe },
+                            publisher = { Roboflow },
+                            year = { 2024 },
+                            month = { apr },
+                            note = { visited on 2024-06-09 },
+                            }
+
 https://blog.roboflow.com/yolov10-how-to-train/
 James Gallagher, Piotr Skalski. (May 24, 2024). How to Fine-Tune a YOLOv10 Model on a Custom Dataset. Roboflow Blog: https://blog.roboflow.com/yolov10-how-to-train/
 
