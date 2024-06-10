@@ -4,7 +4,7 @@ From a selection of data from the Roboflow file https://universe.roboflow.com/la
 By using only 147 images, training is allowed using a personal computer without GPU
 
 ===
-Facility:
+Installation:
 
 Download all project datasets to a folder on disk.
 
@@ -23,7 +23,7 @@ To download the dataset you have to register as a roboflow user, but to simplify
 Some zip decompressors duplicate the name of the folder to be decompressed; a folder that contains another folder with the same name should only contain one. In these cases it will be enough to cut the innermost folder and copy it to the project folder.
 
 ===
-Proof:
+Test:
 
 It is executed:
 
