@@ -7,7 +7,9 @@ By using only 147 images, training is allowed using a personal computer without 
 Installation:
 
 =======================================================
+
 NOTE
+
 This version of the project gives errors if you try to run it with the latest version of ultralytics, recommended because it includes functions for tracking and measuring distances, among others.
 
 The modification is simple, just replace the instruction sets:
@@ -16,7 +18,7 @@ The modification is simple, just replace the instruction sets:
 from ultralytics import YOLOv10
 model = YOLOv10(dirnameModelYolo)
 """
-# change for
+change for
 from ultralytics import YOLO
 model = YOLO(dirnameModelYolo)
 
