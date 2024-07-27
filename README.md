@@ -15,10 +15,14 @@ This version of the project gives errors if you try to run it with the latest ve
 The modification is simple, just replace the instruction sets:
 
 """ This gives error after upgrading ultralytics
+
 from ultralytics import YOLOv10
+
 model = YOLOv10(dirnameModelYolo)
+
 """
 change for
+
 from ultralytics import YOLO
 model = YOLO(dirnameModelYolo)
 
