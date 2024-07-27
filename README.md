@@ -9,9 +9,19 @@ Installation:
 
 Download all project datasets to a folder on disk.
 
-If you have installed yolov10 you must have the most upgrade versionor upgrade it, but be careful may be incompatible with other yolov10 installed. Perhaps choose a new environment.
+If you have installed yolov10 you must have the most upgrade version or upgrade it, but be careful may be incompatible with other yolov10 installed. Perhaps choose a new environment.
 
 To upgrade yolov10:
+
+For that you must have an upgraded version of ultralytics and the proper version of lap:
+
+inside conda in the scripts directory of the user environment
+
+python pip-script.py install --no-cache-dir "lapx>=0.5.2"
+
+upgrade ultralytics
+
+python pip-script.py install --upgrade ultralytics
 
 Install yolov10, if not installed yet, following the instructions given at:
 
@@ -41,7 +51,7 @@ The results are much lower than those obtained by testing the 9 images with http
 ===
  Training
 
-The project comes with an optimized model: last128epoch060003.pt
+The project comes with an optimized model: last114epoch0603.pt
 
 To obtain this model, the following has been executed:
 
