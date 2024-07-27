@@ -36,7 +36,7 @@ These modifications will be incorporated shortly
 
 Download all project datasets to a folder on disk.
 
-Install yolov10 following the instructions given at:
+Install yolov10, if not installed yet, following the instructions given at:
 
 https://blog.roboflow.com/yolov10-how-to-train/
 
