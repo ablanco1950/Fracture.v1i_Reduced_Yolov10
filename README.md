@@ -63,7 +63,7 @@ FractureYolov10OJumbo1.yaml
 
 File with the Log is attached:
 
-LOG_200epochMultiScale.txt
+LOG-Train-200epoch.txt
 
 The training results with the best.pt and last.pt models are obtained at the address:
 runs\train\exp\weights
@@ -72,7 +72,7 @@ With the following warnings:
 
 In FractureYolov10OJumbo1.yaml the absolute addresses of the project appear assuming that it has been installed on disk C:, if it has another location these absolute addresses will have to be changed.
 
-The best result has been found in the last.pt of 128 epoch, although when reaching the end, in 200 epoch, it seems that the values ​​of mAP50 and mAP50-95 are better. Which would indicate that the training has overfitting
+The best result has been found in the last.pt of 114 epoch, although when reaching the end, in 200 epoch, it seems that the values ​​of mAP50 and mAP50-95 are better. Which would indicate that the training has overfitting
 
 ===
 References and citations:
