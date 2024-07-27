@@ -9,7 +9,8 @@ import ultralytics
 # https://blog.roboflow.com/yolov10-how-to-train/
 # en mi caso:
 #(alfonso1) C:\Users\Alfonso Blanco\.conda\envs\alfonso1\Scripts>python pip-script.py install git+https://github.com/THU-MIG/yolov10.git
-from ultralytics import YOLOv10
+#from ultralytics import YOLOv10 # does not work after upgrading ultralytics
+from ultralytics import YOLO
 import torch
 
 class ObjectDetection:
@@ -19,7 +20,8 @@ class ObjectDetection:
         self.dir="C:/Fracture.v1i_Reduced_Yolov10"
     def train(self, runName):
         # downloaded from https://github.com/THU-MIG/yolov10/releases
-        model = YOLOv10("yolov10n.pt")
+        #model = YOLOv10("yolov10n.pt") # does not work after upgrading ultralytics
+        model = YOLO("yolov10n.pt") 
         
         #yaml_path = os.path.join(self.dir, 'yaml_file.yaml')
         yaml_path = "FractureYolov10OJumbo1.yaml"
@@ -28,7 +30,7 @@ class ObjectDetection:
             batch = 16,               # Training batch size
             imgsz= 640,                   # Input image size
             #epochs= 2000,                  # Number of training epochs
-            epochs= 200,                  # Number of training epochs
+            epochs= 130,                  # Number of training epochs
             optimizer= 'SGD',             # Optimizer, can be 'Adam', 'SGD', etc.
             lr0= 0.01,                    # Initial learning rate
             

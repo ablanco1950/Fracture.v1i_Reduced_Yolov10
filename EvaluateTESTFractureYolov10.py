@@ -11,16 +11,24 @@ dir=""
 dirname= "testFractureOJumbo1\\images"
 dirnameLabels="testFractureOJumbo1\\labels"
 
-dirnameYolo="C:\\PointOutFracture\\runs\\train\\exp15\weights\\best.pt"
-dirnameYolo="last128epoch060003.pt"
+
+#dirnameYolo ="C:\\Fracture.v1i_Reduced_Yolov10\\runs\\train\\exp4\\weights\\best.pt"
+
+#dirnameYolo ="C:\\Fracture.v1i_Reduced_Yolov10\\runs\\train\\exp4\\weights\\last.pt"
+
+dirnameYolo="last114epoch0603.pt"
 
 import cv2
 import time
 Ini=time.time()
 
+""" This gives error after upgrading ultralytics
 from ultralytics import YOLOv10
-
 model = YOLOv10(dirnameYolo)
+"""
+# change for
+from ultralytics import YOLO
+model = YOLO(dirnameYolo)
 
 class_list = model.model.names
 print(class_list)
