@@ -23,7 +23,7 @@ upgrade ultralytics
 
 python pip-script.py install --upgrade ultralytics
 
-In other case if you have not yolov10 installed yet, install it following the instructions given at:
+In other case, if you have not yolov10 installed yet, install it following the instructions given at:
 
 https://blog.roboflow.com/yolov10-how-to-train/
 
